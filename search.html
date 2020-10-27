@@ -51,7 +51,7 @@
                     <div class="input-group-prepend">
                         <span class="input-group-text">$</span>
                     </div>
-                    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                    <input type="text" id="price class="form-control" aria-label="Amount (to the nearest dollar)">
                     <div class="input-group-append">
                         <span class="input-group-text">.00</span>
                     </div>
@@ -60,7 +60,7 @@
 
             <div class="col-sm-6">
                 <h1>Type Of Pet</h1>
-                <select class="form-control">
+                <select class="form-control" id="petType">
                     <option>Dog</option>
                     <option>Cat</option>
 
@@ -71,7 +71,7 @@
             <div class="col-sm-6">
 
                 <h1>Size</h1>
-                <select class="form-control">
+                <select class="form-control" id="petWeight">
                     <option>Small (under 20lbs)</option>
                     <option>Medium(up to 40 lbs)</option>
                     <option>Large (Over 40 lbs)</option>
@@ -82,7 +82,7 @@
             <div class="col-sm-6">
 
                 <h1>State</h1>
-                <select class="form-control">
+                <select class="form-control" id="state">
                     <option>Utah</option>
                     <option>Idaho</option>
                     <option>California</option>
@@ -94,14 +94,14 @@
             <div class="container">
                 <div class="row">
                     <div class="col d-flex justify-content-center">
-                        <input class="btn btn-success submit" type="submit" value="Submit">
+                        <input id="submit" class="btn btn-success submit" type="submit" value="Submit">
                     </div>
                 </div>
             </div>
         </div>
         <div class="container px-lg-5">
             <div class="row mx-lg-n5">
-              <div class="col py-3 px-lg-5 border bg-light">
+              <div class="col py-3 px-lg-5 border bg-light" id="petDisplay">
 <!-- pets pulled from the API will got here based on the user search -->
 
                 </div>
