@@ -45,4 +45,7 @@ h1 {
     padding: 0px;
     
   };
- 
+.jumbotron {
+  background-image: url("-703-700x500-0.jpg");
+  background-size: cover;
+} 
