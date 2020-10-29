@@ -38,13 +38,27 @@ $(document).ready(function () {
       for (let i = 0; i < response.animals.length; i++) {
         console.log(response.animals[i]);
         console.log(i);
-          var species = response.animals[i].species;
-        $(species).appendTo($(".species"))
 
-      }
-       
-    })
-  }
+        $("#submit").on("click", function (e) {
+          e.preventDefault();
+          var species = response.animals[i].species[0];
+          var cat = $(".species-1")
+          var dog = $(".species-0")
+          console.log(species[0])
+          if (species === cat) {
+            $(`species${0}`).appendTo($(".species"))
+            
+          };
+
+
+
+            $(".clear").empty()
+          
+        });
+      };
+
+    });
+  };
 
 
 
