@@ -45,9 +45,9 @@ $(document).ready(function () {
         speciesSelection = $("#petType").val()
         sizeSelection = $("#petSize").val()
         genderSelection = $("#petGender").val()
-        console.log(speciesSelection)
-        console.log(sizeSelection)
-        console.log(genderSelection)
+        //console.log(speciesSelection)
+        //console.log(sizeSelection)
+       // console.log(genderSelection)
         for (var i = 0; i < response.animals.length; i++) {
           console.log(response.animals[i]);
           //console.log(i);
@@ -59,6 +59,7 @@ $(document).ready(function () {
          var name = response.animals[i].name;
          var contact = response.animals[i].contact.email
          var picture = response.animals[i].photos[0]
+         console.log(response.animals[i].photos[0])
           if (species === speciesSelection && sizeSelection && genderSelection) {
             var container = $("<div>").addClass("card").html(`<div class="name" class="clear"></div>
             <img class="picture">${picture}</img>
