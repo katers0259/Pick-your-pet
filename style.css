@@ -1,6 +1,8 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url("Assets/background-with-dog-footprint-vector-7815367.jpg");
 };
+
 .jumbotron {
     margin-bottom: 15px;
     font-size: 60px;
@@ -45,8 +47,8 @@ h1 {
     padding: 0px;
     
   };
-  .jumbotron{
-    background-image: url('Assets/-703-700x500-0.jpg');
-    background-size: cover;
-    height: 100%;}
-} 
+  h1 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  }
+
