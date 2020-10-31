@@ -79,15 +79,6 @@ $(document).ready(function () {
         };
 
 
-
-
-
-
-
-
-
-
-
       });
 
 
