@@ -50,7 +50,8 @@
             <h1 class="text-center"><strong>Search for your Perfect Pet</strong></h1>
         </div> -->
 
-
+        <div class="card">
+            <div class="card-body">
         <div class="row">
             <div class="col-sm-6">
                 <h1>Adoption Fee</h1>
@@ -78,7 +79,7 @@
             <div class="col-sm-6">
 
                 <h1>Size</h1>
-                <select class="form-control" id="petWeight">
+                <select class="form-control" id="petSize">
                     <option class="weight-0">Small (under 20lbs)</option>
                     <option class="weight-1">Medium(up to 40 lbs)</option>
                     <option class="weight-2">Large (Over 40 lbs)</option>
@@ -89,35 +90,33 @@
             <div class="col-sm-6">
 
                 <h1>Gender</h1>
-                <select class="form-control" id="state">
+                <select class="form-control" id="petGender">
                     <option class="gender-0">Male</option>
                     <option class="gender-1">Female</option>
 
 
                 </select>
             </div>
+            
             <div class="container">
                 <div class="row">
                     <div class="col d-flex justify-content-center">
-                        <input id="submit" class="btn btn-success submit" type="submit" value="Submit">
+                        <input id="submit" class="btn btn-success submit"  type="submit" value="Submit">
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container px-lg-5">
-            <div class="row mx-lg-n5">
-                <div class="col py-3 px-lg-5 border bg-light" id="petDisplay">
+        </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <div id="petDisplay">
                     <!-- pets pulled from the API will got here based on the user search -->
-                    <div class="name" class="clear"></div>
-                    <div class="age" class="clear"></div>
-                    <div class="breed" class="clear"></div>
-                    <div class="gender" class="clear"></div>
-                    <div class="species" class="clear"></div>
-                    <link href="">Adopt Me</link>
-                    <div class="contact" class="clear"></div>
+                   
                 </div>
             </div>
         </div>
+
     </div>
 
 
