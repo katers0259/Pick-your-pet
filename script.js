@@ -72,20 +72,11 @@ $(document).ready(function () {
             <div class="species" class="clear">${species}</div>
             <div class="contact" class="clear">${contact}</div>`)
 
-            console.log(image);
+            
             $("#petDisplay").append(container);
 
           };
         };
-
-
-
-
-
-
-
-
-
 
 
       });
