@@ -90,23 +90,6 @@ $(document).ready(function () {
 
 })
 
-// var submitEl = document.querySelector("#sendBtn");
-// var nameInput = document.querySelector("#petName");
-// var messageInput = document.querySelector("#message");
-// var submissionResponseEl = document.querySelector("#response");
-// var petNameVal = localStorage.getItem("Pet Name")
-// console.log(petName);
-
-// submitEl.addEventListener("click", function(event) {
-//   event.preventDefault();
-
-//   console.log(event);
-  
-//   var response = "Thank you for your submission, " + nameInput.value + " We are excited to share your story!";
-//   submissionResponseEl.textContent = response;
-
-
-// })
 
 
 
@@ -124,3 +107,14 @@ $(document).ready(function () {
 
 
 
+<<<<<<< HEAD
+
+
+// $(document).ready(function() {
+//     $("#searchBtn").on("click", function(){
+//         var searchValue = $("#search-value").val();
+//         $("#search-value").val("");
+        
+//     });
+=======
+>>>>>>> 873cea5b7d0007429daf25b681d2c5b4d389f8a8
