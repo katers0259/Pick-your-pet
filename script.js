@@ -93,9 +93,22 @@ $(document).ready(function () {
 
     });
   };
+  function adoptGif() {
+   
+    $.ajax({
+      url: 'https://media.giphy.com/media/dzCdzkb9dzaMsy2l23/giphy.gif',
+      method: "GET"
+     
+    }).then(function (response) {
+ 
+     console.log(response);
 
+    })
 
+  }
+  adoptGif();
 
+ 
 
 
 
@@ -105,7 +118,8 @@ $(document).ready(function () {
 // var nameInput = document.querySelector("#petName");
 // var messageInput = document.querySelector("#message");
 // var submissionResponseEl = document.querySelector("#response");
-
+// var petNameVal = localStorage.getItem("Pet Name")
+// console.log(petName);
 
 // submitEl.addEventListener("click", function(event) {
 //   event.preventDefault();
@@ -114,6 +128,8 @@ $(document).ready(function () {
   
 //   var response = "Thank you for your submission, " + nameInput.value + " We are excited to share your story!";
 //   submissionResponseEl.textContent = response;
+
+
 // })
 
 
