@@ -47,22 +47,23 @@ $(document).ready(function () {
         genderSelection = $("#petGender").val()
         //console.log(speciesSelection)
         //console.log(sizeSelection)
-       // console.log(genderSelection)
+        // console.log(genderSelection)
         for (var i = 0; i < response.animals.length; i++) {
           console.log(response.animals[i]);
-          //console.log(i);
+
           var gender = response.animals[i].gender;
           var species = response.animals[i].species;
           var weight = response.animals[i].size;
           var age = response.animals[i].age;
           var breed = response.animals[i].breeds.primary;
-         var name = response.animals[i].name;
-         var contact = response.animals[i].contact.email
-         var picture = response.animals[i].photos[0]
-         console.log(response.animals[i].photos[0])
+          var name = response.animals[i].name;
+          var contact = response.animals[i].contact.email
+
+          console.log(response.animals[i].photos[0])
+
           if (species === speciesSelection && sizeSelection && genderSelection) {
             var container = $("<div>").addClass("card").html(`<div class="name" class="clear"></div>
-            <img class="picture">${picture}</img>
+              
             <div class="name" class="clear">${name}</div>
             <div class="age" class="clear">${age}</div>
             <div class="breed" class="clear">${breed}</div>
@@ -70,22 +71,22 @@ $(document).ready(function () {
             <div class="size" class="clear">${weight}</div>
             <div class="species" class="clear">${species}</div>
             <div class="contact" class="clear">${contact}</div>`)
-            
+
+            console.log(image);
             $("#petDisplay").append(container);
-            $(".clear").empty()
 
           };
         };
 
 
-        //console.log(species.cat)
 
 
 
 
 
 
-       
+
+
 
       });
 
@@ -93,24 +94,8 @@ $(document).ready(function () {
 
     });
   };
-  function adoptGif() {
-   
-    $.ajax({
-      url: 'https://media.giphy.com/media/dzCdzkb9dzaMsy2l23/giphy.gif',
-      method: "GET"
-     
-    }).then(function (response) {
- 
-     console.log(response);
-
-    })
-
-  }
-  adoptGif();
 
  
-
-
 
 })
 

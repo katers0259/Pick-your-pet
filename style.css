@@ -29,26 +29,8 @@ h1 {
     margin-right: auto;
     display: block;
   };
-  .input-group {
-    margin: 20px;
-    padding: 0px;
-  };
-  .col-sm-6{
-    margin-left: 20px;
-    margin-top: 30px;
-    align-items: center;
-    padding:0px;
-  };
+  
 
-  .col-sm-3 {
-    margin-top: 20px;
-    align-items: center;
-    padding: 0px;
-  };
-  .form-control {
-    padding: 0px;
-    
-  };
 
   .jumbotron {
     background-image: url('Assets/-703-700x500-0.jpg');
