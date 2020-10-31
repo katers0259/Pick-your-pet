@@ -107,14 +107,3 @@ $(document).ready(function () {
 
 
 
-<<<<<<< HEAD
-
-
-// $(document).ready(function() {
-//     $("#searchBtn").on("click", function(){
-//         var searchValue = $("#search-value").val();
-//         $("#search-value").val("");
-        
-//     });
-=======
->>>>>>> 873cea5b7d0007429daf25b681d2c5b4d389f8a8
