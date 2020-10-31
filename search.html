@@ -40,84 +40,94 @@
             </div>
         </nav>
 
-        <div id= "jumbotron" class="jumbotron jumbotron-fluid" style="background: url(Assets/-703-700x500-0.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+        <div id="jumbotron" class="jumbotron jumbotron-fluid"
+            style="background: url(Assets/-703-700x500-0.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
             <div class="container">
-              <h1 class="display-4 jumbotron-text text-center" style="color: white;
+                <h1 class="display-4 jumbotron-text text-center" style="color: white;
               text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;">Search for your Perfect Pet</h1>
-              </div>
-          </div>
+            </div>
+        </div>
         <!-- <div class="jumbotron">
             <h1 class="text-center"><strong>Search for your Perfect Pet</strong></h1>
         </div> -->
 
+
+
+
         <div class="card">
             <div class="card-body">
-        <div class="row">
-            <div class="col-sm-6">
-                <h1>Adoption Fee</h1>
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text">$</span>
-                    </div>
-                    <input type="text" id="price" class="form-control" aria-label="Amount (to the nearest dollar)">
-                    <div class="input-group-append">
-                        <span class="input-group-text">.00</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-6">
-                <h1>Type Of Pet</h1>
-                <select class="form-control" id="petType">
-                    <option class="species-0">Dog</option>
-                    <option class="species-1">Cat</option>
-
-                </select>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-6">
-
-                <h1>Size</h1>
-                <select class="form-control" id="petSize">
-                    <option class="weight-0">Small (under 20lbs)</option>
-                    <option class="weight-1">Medium(up to 40 lbs)</option>
-                    <option class="weight-2">Large (Over 40 lbs)</option>
-                    <option class="weight-3">Extra Large (over 90 lbs)</option>
-
-                </select>
-            </div>
-            <div class="col-sm-6">
-
-                <h1>Gender</h1>
-                <select class="form-control" id="petGender">
-                    <option class="gender-0">Male</option>
-                    <option class="gender-1">Female</option>
-
-
-                </select>
-            </div>
-            
-            <div class="container">
+                <div class="container">
                 <div class="row">
-                    <div class="col d-flex justify-content-center">
-                        <input id="submit" class="btn btn-success submit"  type="submit" value="Submit">
+                    <div class="col">
+                        <h1>Age</h1>
+                        <select class="form-control" id="petAge">
+                            <option class="age-0">Baby</option>
+                            <option class="age-1">Young</option>
+                            <option class="age-2">Adult</option>
+                            <option class="age-3">Senior</option>
+
+                        </select>
+                    </div>
+                    <div class="col">
+                        <h1>Type Of Pet</h1>
+                        <select class="form-control" id="petType">
+                            <option class="species-0">Dog</option>
+                            <option class="species-1">Cat</option>
+
+                        </select>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col">
+                        <h1>Size</h1>
+                        <select class="form-control" id="petSize">
+                            <option class="weight-0">Small (under 20lbs)</option>
+                            <option class="weight-1">Medium(up to 40 lbs)</option>
+                            <option class="weight-2">Large (Over 40 lbs)</option>
+                            <option class="weight-3">Extra Large (over 90 lbs)</option>
+            
+                        </select>
+                    </div>
+                    <div class="col"> 
+                        <h1>Gender</h1>
+                        <select class="form-control" id="petGender">
+                            <option class="gender-0">Male</option>
+                            <option class="gender-1">Female</option>
+            
+            
+                        </select>
                     </div>
                 </div>
             </div>
-        </div>
-        </div>
-        </div>
-        <div class="card">
-            <div class="card-body">
-                <div id="petDisplay">
-                    <!-- pets pulled from the API will got here based on the user search -->
-                   
+
+
+
+
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col d-flex justify-content-center">
+                    <input id="submit" class="btn btn-success submit" type="submit" value="Submit">
                 </div>
             </div>
         </div>
-
     </div>
+    </div>
+    
+    <div class="card">
+
+        <div class="card-body">
+
+            <div id="petDisplay">
+
+                <!-- pets pulled from the API will got here based on the user search -->
+
+            </div>
+        </div>
+    </div>
+
+    
 
 
 
