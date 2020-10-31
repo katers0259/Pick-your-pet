@@ -1,6 +1,8 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url("Assets/background-with-dog-footprint-vector-7815367.jpg");
 };
+
 .jumbotron {
     margin-bottom: 15px;
     font-size: 60px;
@@ -12,6 +14,8 @@ h1 {
   font-size: 10px;
   padding: 10px;
   text-align: center;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 };
 
 h3 {
@@ -25,24 +29,11 @@ h3 {
     margin-right: auto;
     display: block;
   };
-  .input-group {
-    margin: 20px;
-    padding: 0px;
-  };
-  .col-sm-6{
-    margin-left: 20px;
-    margin-top: 30px;
-    align-items: center;
-    padding:0px;
-  };
+  
 
-  .col-sm-3 {
-    margin-top: 20px;
-    align-items: center;
-    padding: 0px;
+
+  .jumbotron {
+    background-image: url('Assets/-703-700x500-0.jpg');
+    background-size: cover;
+    height: 100%;
   };
-  .form-control {
-    padding: 0px;
-    
-  };
- 
