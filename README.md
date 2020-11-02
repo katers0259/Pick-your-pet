@@ -26,3 +26,7 @@ The following is a link that demonstrates the application functionallity: https:
 ![search](https://user-images.githubusercontent.com/69743567/97772217-83376280-1b0a-11eb-890a-6e68f78229b5.PNG)
 ![success](https://user-images.githubusercontent.com/69743567/97772218-83cff900-1b0a-11eb-94c5-97ef7e33041e.PNG)
 ![welcome](https://user-images.githubusercontent.com/69743567/97772219-83cff900-1b0a-11eb-9973-820d6ff72f48.PNG)
+
+
+Jady: https://github.com/Jady11
+Chris:https://github.com/chriscooley1
